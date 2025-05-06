@@ -1,7 +1,7 @@
 # Copyright 2021 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: 'Build HHKB macOS'
+name: 'Build QWERTY macOS vi lite'
 on:
   - workflow_dispatch
 jobs:
@@ -22,7 +22,7 @@ jobs:
         "default"
       ]'
       mapping: '[
-        "default"
+        "lite"
       ]'
       kmonad_os: '[
         "mac"
